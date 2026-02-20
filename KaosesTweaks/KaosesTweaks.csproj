@@ -44,7 +44,8 @@
 			<HintPath>%(Identity)</HintPath>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="$(BANNERLORD_GAME_DIR)\Modules\NavalDLC\bin\Win64_Shipping_Client\*.dll">
+		<Reference Include="$(BANNERLORD_GAME_DIR)\Modules\NavalDLC\bin\Win64_Shipping_Client\*.dll"
+				   Condition="Exists('$(BANNERLORD_GAME_DIR)\Modules\NavalDLC\bin\Win64_Shipping_Client')">
 			<HintPath>%(Identity)</HintPath>
 			<Private>False</Private>
 		</Reference>

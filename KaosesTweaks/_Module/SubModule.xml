@@ -17,7 +17,6 @@
 		<DependedModule Id="SandBoxCore" />
 		<DependedModule Id="Sandbox" />
 		<DependedModule Id="StoryMode" />
-		<DependedModule Id="NavalDLC" Optional="true" />
 	</DependedModules>
 	<!-- Community Dependency Metadata -->
 	<!-- https://github.com/BUTR/Bannerlord.BUTRLoader#for-modders -->
@@ -31,7 +30,6 @@
 		<DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
 		<DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
 		<DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" />
-		<DependedModuleMetadata id="NavalDLC" order="LoadBeforeThis" optional="true" />
 	</DependedModuleMetadatas>
 	<!-- Community Dependency Metadata -->
 	<SubModules>
